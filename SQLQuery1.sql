@@ -1,6 +1,6 @@
 use Dev_SQLFunctionsStoredTriggers
 
---function
+--function --crcks
 CREATE FUNCTION dbo.GetClientbyId
 (@ClientId int )
 RETURNS	table
